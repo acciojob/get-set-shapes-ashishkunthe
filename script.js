@@ -1,21 +1,20 @@
 //complete this code
 class Rectangle {
-	private _width:number
-	private _height:number
+	
 	constructor(width:number,height:number){
-		this._height=height
-		this._width=width
+		this.height=height
+		this.width=width
 	}
 
 	get width(){
-		return this._width
+		return this.width
 	}
 	get height(){
-		return this._height
+		return this.height
 	}
 	
 	getArea(){
-		return this._height*this._width
+		return this.height*this.width
 	}
 }
 
