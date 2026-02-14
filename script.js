@@ -12,12 +12,12 @@ class Rectangle {
 class Square extends Rectangle {
 	constructor(side:number){
 		super(side, side)
-		side=this.side
+		this.side=side
 		
 	}
 
 	getArea(){
-		return this.side*this.side;
+		return this.side*this.side
 	}
 
 	getPerimeter(){
