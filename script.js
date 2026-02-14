@@ -1,10 +1,10 @@
 //complete this code
 class Rectangle {
-	width:number
-	height:number
+	private _width:number
+	private _height:number
 	constructor(width:number,height:number){
-		this.height=height
-		this.width=width
+		this._height=height
+		this._width=width
 	}
 
 	get width(){
@@ -15,12 +15,11 @@ class Rectangle {
 	}
 	
 	getArea(){
-		return this.height*this.width
+		return this._height*this._width
 	}
 }
 
 class Square extends Rectangle {
-	side:number
 	constructor(side:number){
 		super(side, side)
 	}
